@@ -148,13 +148,13 @@ public class MainPanel extends JPanel
 
 	public void displayTextInfo()
 	{
-//		JScrollPane txt = new JScrollPane();
-//		txt.setBounds(10, 335, 755, 85);
-//		add(txt);
-//
-//		JTextArea textArea = new JTextArea();
-//		txt.setViewportView(textArea);
-//		textArea.setText(allData.toString());
+		JScrollPane txt = new JScrollPane();
+		txt.setBounds(10, 335, 755, 85);
+		add(txt);
+
+		JTextArea textArea = new JTextArea();
+		txt.setViewportView(textArea);
+		textArea.setText(allData.toString());
 
 		JButton btnNewButton = new JButton("Enter");
 		btnNewButton.setBounds(116, 150, 89, 23);
